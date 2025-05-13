@@ -9,7 +9,6 @@ API_KEY = 'AIzaSyCGFXGeKbaMQpRzOD1l41W8Jht-aSA9cJA'
 
 youtube = build('youtube', 'v3', developerKey=API_KEY)
 
-st.title("📺 유튜브 키워드 영상 분석기")
 with st.container():
     st.markdown("""
         <div style='background-color:#03c75a; padding:20px; border-radius:10px; text-align:center; color:white'>
@@ -24,6 +23,7 @@ with st.container():
 keywords_input = st.text_input("🔍 분석할 키워드를 쉼표(,)로 구분해 입력하세요", "감정 표현, 회피형 애착")
 max_results = st.slider("🎯 키워드당 검색할 영상 수", 1, 20, 5)
 
+st.title("📺 유튜브 키워드 영상 분석기")
 if st.button("분석 시작", key="analysis_start"):
     keywords = [k.strip() for k in keywords_input.split(",")]
     results = []
