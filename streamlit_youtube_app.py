@@ -12,8 +12,8 @@ youtube = build('youtube', 'v3', developerKey=API_KEY)
 with st.container():
     st.markdown("""
         <div style='background-color:#03c75a; padding:20px; border-radius:10px; text-align:center; color:white'>
-            🌱 <strong>호행부부 커뮤니티</strong><br>
-            심리 및 관계에서 진짜 변화를 만들고 싶은 분들을 위한 성장 커뮤니티입니다.<br><br>
+            🌱 <strong>15일간의 도전!</strong><br>
+            15일간의 도전, 유튜브 검색 내가 원하는 키워드 찾기!.<br><br>
             <a href='https://cafe.naver.com/f-e/cafes/31468087/menus/0' target='_blank'
                style='color:white; font-weight:bold; text-decoration:none;'>
                👉 커뮤니티 바로가기
