@@ -12,8 +12,8 @@ youtube = build('youtube', 'v3', developerKey=API_KEY)
 with st.container():
     st.markdown("""
         <div style='background-color:#03c75a; padding:20px; border-radius:10px; text-align:center; color:white'>
-            🌱 <strong>15일간의 도전!</strong><br>
-            15일간의 도전, 유튜브 검색 내가 원하는 키워드 찾기!.<br><br>
+            🌱 <strong>15일간의 도전일지!!</strong><br>
+            유튜브 영상 분석해볼께요!!.<br><br>
             <a href='https://www.youtube.com/@15%EC%9D%BC%EC%B1%8C%EB%A6%B0%EC%A7%80' target='_blank'
                style='color:white; font-weight:bold; text-decoration:none;'>
                👉 커뮤니티 바로가기
